@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    /* background-color: #888d8d; */
+    height: 50px;
+    font-family: 'Coiny', cursive;
+}
+body{
+    background-color: #5D8AA8;
+}
+.links ul li{
+    display: inline-block;
+}
+.links ul{
+    padding-top: 4px;
+    text-align: center;
+    word-spacing: 87px;
+
+}
+.links ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(31, 13, 13);
+    font-weight: bolder;
+}
+.links ul li a:hover{
+    color: aliceblue;
+}
+.links ul li a:active{
+    color: gray;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 20px;
+}
+.main h2{
+    font-family: 'Red Rose', cursive;
+}
+.main a{
+    text-decoration: none;
+    color: rgb(15, 12, 202);
+    font-weight: bolder
+}
+
+.main h3{
+    font-family: 'Bayon', sans-serif;
+    color: black;
+}
+.footer{
+    height: 130px;
+    background-color: #5a5959;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 110px;
+}
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 20px 38px;  
+    width: 50px;  
+    text-decoration: none;
+    border-radius: 20px;
+    
+}  
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+}  
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+} 
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+} 
+.text2{
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-left: 60px;
+
+}
+.text2 h2{
+    font-weight: bolder;
+
+
+}
